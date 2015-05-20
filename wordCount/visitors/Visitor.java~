@@ -1,0 +1,7 @@
+package wordCount.visitors;
+
+public interface Visitor {
+
+	int visit(TreeMap<String, AvlNode> tmap);
+
+}
